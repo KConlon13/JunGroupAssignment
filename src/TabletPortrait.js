@@ -40,7 +40,7 @@ class TabletPortrait extends React.Component {
 const styles = ({
     CTAbutton: {
         color: "white",
-        marginTop: "13%",
+        marginTop: "14%",
         marginLeft: "8%",
         marginRight: "8%",
         background: "#702082",
@@ -52,21 +52,21 @@ const styles = ({
         letterSpacing: "0.2px",
         paddingLeft: "3%",
         paddingRight: "3%",
-        fontSize: "32px",
-        height: "80px",
-        width: "450px"
+        fontSize: "28px",
+        height: "70px",
+        width: "400px"
     },
     socialButtons: {
-        height: "75px",
-        width: "75px"
+        height: "65px",
+        width: "65px"
     },
     socialIcons: {
-        fontSize: "2.8em",
+        fontSize: "2.6em",
         display: "inline",
         verticalAlign: "-45%",
     },
     socialGroup: {
-        marginTop: "6%"
+        marginTop: "5%"
     }
 })
 

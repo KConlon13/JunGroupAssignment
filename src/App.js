@@ -5,7 +5,6 @@ import PhonePortrait from "./PhonePortrait"
 import PhoneLandscape from "./PhoneLandscape"
 import TabletLandscape from "./TabletLandscape"
 import TabletPortrait from "./TabletPortrait"
-import AltTabletLandscape from "./AltTabletLandscape"
 
 function App() {
 
@@ -14,12 +13,10 @@ function App() {
       return <PhonePortrait />
     } else if (window.innerWidth === 667) {
       return <PhoneLandscape />
-    } else if (window.innerWidth === 1024) {
+    } else if (window.innerWidth === 768) {
       return <TabletPortrait />
-    } else if (window.innerWidth === 1366){
+    } else if (window.innerWidth === 1024){
       return <TabletLandscape />
-    } else  if (window.innerWidth === 768){
-      return <AltTabletLandscape />
     } else {
       return <WelcomeScreen />
     }
