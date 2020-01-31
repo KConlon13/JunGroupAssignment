@@ -1,6 +1,5 @@
 import React from "react";
 import './App.css';
-// import TacoBellWhiteLogo from "./tacobellwhitelogo.png"
 import BelluminatiLogo from "./BelluminatiLogo.png"
 
 class PhonePortrait extends React.Component {
@@ -9,9 +8,9 @@ class PhonePortrait extends React.Component {
         return(
             <div className="PhonePortrait">
                 <img className="Taco-Bell-Logo" src={BelluminatiLogo} alt="Taco Bell White"/>
-                <h3 className="Portrait-Small-Title-Copy">Welcome To The</h3>
+                <h3 className="Portrait-Small-Title-Copy">Welcome to the</h3>
                 <h3 className="Portrait-Large-Title-Copy">BELLUMINATI</h3>
-                <h4 className="Portrait-Copy">Congratulations. You've discovered the secret world of the Belluminati where the dollar truly gets you more. From morning to late night, your dollar will always get you the most at Taco Bell - for it is the order of the Belluminati.</h4>
+                <h4 className="Portrait-Copy">Congratulations. You've discovered the secret world of the Belluminati, where the dollar truly gets you more. From morning to late night, your dollar will always get you the most at Taco Bell - for it is the order of the Belluminati.</h4>
                 <h3 className="Portrait-Tagline-Copy">#TheDollarReignsSupreme</h3>
                 <a href="https://www.tacobell.com/" target="_blank" rel="noopener noreferrer">
                     <button class="ui inverted button">UNCOVER MORE SECRETS HERE</button>
