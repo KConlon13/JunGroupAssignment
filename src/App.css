@@ -34,15 +34,15 @@ body {
 
 .Taco-Bell-Logo {
   display: block;
-  height: 40vmin;
-  margin-top: 20%;
+  height: 60vmin;
+  margin-top: 4%;
   margin-right: auto;
   margin-left: auto;
 }
 
 .Portrait-Small-Title-Copy {
   color: white;
-  margin-top: 13%;
+  margin-top: 4%;
   margin-bottom: 0%;
   font-size: 15px;
   font-family: 'Vollkorn', serif;
@@ -58,20 +58,27 @@ body {
 
 .Portrait-Copy {
   color: white;
-  margin-top: 10%;
-  font-size: 25px;
+  margin-top: 5%;
+  font-size: 12px;
   font-family: 'Vollkorn', serif;
+  font-weight: 500;
+  margin-left: 7%;
+  margin-right: 7%;
 }
 
 .ui.inverted.button {
   color: white;
-  margin-top: 40%;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-top: 30%;
+  margin-left: 16%;
+  margin-right: 16%;
+  background: #702082;
+  border-color: #702082;
+  box-shadow: 0 0 0 2px #702082 inset!important;
+  border-radius: 0
 }
 
 .Social-Button-Group {
-  margin-top: 5%;
+  margin-top: 7%;
 }
 
 .ui.circular.facebook.icon.button {
