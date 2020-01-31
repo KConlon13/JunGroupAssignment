@@ -62,7 +62,8 @@ const styles = ({
     },
     socialIcons: {
         fontSize: "2.8em",
-        display: "inline"
+        display: "inline",
+        verticalAlign: "-45%",
     },
     socialGroup: {
         marginTop: "6%"
@@ -70,5 +71,3 @@ const styles = ({
 })
 
 export default TabletPortrait;
-
-//Work on fixing the centering issue for the social icons
