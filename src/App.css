@@ -56,6 +56,15 @@ body {
   font-family: 'Vollkorn', serif;
 }
 
+.Portrait-Tagline-Copy {
+  color: white;
+  margin-top: 5%;
+  margin-bottom: 0%;
+  font-size: 13px;
+  font-family: 'Vollkorn', serif;
+  font-weight: 200;
+}
+
 .Portrait-Copy {
   color: white;
   margin-top: 5%;
@@ -63,28 +72,42 @@ body {
   font-family: 'Vollkorn', serif;
   font-weight: 500;
   margin-left: 7%;
-  margin-right: 7%;
+  margin-right: 7%; 
+  line-height: 20px;
 }
 
 .ui.inverted.button {
   color: white;
-  margin-top: 30%;
+  margin-top: 16%;
   margin-left: 16%;
   margin-right: 16%;
   background: #702082;
   border-color: #702082;
   box-shadow: 0 0 0 2px #702082 inset!important;
-  border-radius: 0
+  font-family: 'Teko', sans-serif;
+  font-weight: 600;
+  border-radius: 0;
+  letter-spacing: 0.2px;
+  padding-left: 4%;
+  padding-right: 4%;
+  font-size: 15px;
 }
 
 .Social-Button-Group {
-  margin-top: 7%;
+  margin-top: 8%;
 }
 
 .ui.circular.facebook.icon.button {
   margin-right: 8%;
-  height: 40px;
+  background: white;
+  color: #702082;
 }
 .ui.circular.instagram.icon.button {
   margin-right: 8%;
+  background: white;
+  color: #702082;
+}
+.ui.circular.twitter.icon.button {
+  background: white;
+  color: #702082;
 }
