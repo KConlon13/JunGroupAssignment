@@ -1,5 +1,6 @@
 import React from "react";
 import './App.css';
+
 import BelluminatiLogo from "./BelluminatiLogo.png"
 
 class TabletPortrait extends React.Component {

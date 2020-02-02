@@ -9,11 +9,11 @@ import TabletPortrait from "./TabletPortrait"
 function App() {
 
   const optimizedScreens=()=> {
-    if (window.innerWidth === 375){
+    if (window.innerWidth === 375 && window.innerHeight === 667){
       return <PhonePortrait />
     } else if (window.innerWidth === 667) {
       return <PhoneLandscape />
-    } else if (window.innerWidth === 768) {
+    } else if (window.innerWidth === 768 && window.innerHeight === 1024) {
       return <TabletPortrait />
     } else if (window.innerWidth === 1024){
       return <TabletLandscape />

@@ -1,0 +1,164 @@
+body {
+    background: black;
+  }
+  
+  /* The following styling is for the PhonePortrait Component */
+  .PhonePortrait {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .Taco-Bell-Logo {
+    display: block;
+    height: 60vmin;
+    margin-top: 4%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .Portrait-Small-Title-Copy {
+    color: white;
+    margin-top: 4%;
+    margin-bottom: 0%;
+    font-size: 15px;
+    font-family: 'Vollkorn', serif;
+    font-weight: 300;
+  }
+  
+/* //   .Portrait-Large-Title-Copy {
+//     color: white;
+//     opacity: .8;
+//     margin-top: 0;
+//     font-size: 35px;
+//     font-family: 'Vollkorn', serif;
+// } */
+
+/* // Attempt to create glitch animation effect */
+  
+  .Portrait-Large-Title-Copy {
+    color: white;
+    opacity: .8;
+    margin-top: 0;
+    font-size: 35px;
+    font-family: 'Vollkorn', serif;
+}
+  .center{
+    position: absolute;
+    left: 50%;
+    bottom: 51%;
+    transform: translate(-50%, -50%);
+  }
+  .text label{
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Vollkorn', serif;
+    cursor: pointer;
+  }
+  label span{
+    position: relative;
+    color: white;
+    z-index: 2;
+    filter: blur(.1px);
+  }
+  .text label::before,
+  .text label::after{
+    position: absolute;
+    content: attr(data-content);
+    top: 0;
+    left: 0;
+    visibility: hidden;
+  }
+  .text label::before,
+  .text label::after{
+    visibility: visible;
+  }
+  .text label::before{
+    color: rgba(255,0,188,.6);
+    animation: glitch .3s cubic-bezier(.25,.46,.45,.94) both infinite;
+  }
+  .text label::after{
+    color: rgba(0,255,255,.6);
+    animation: glitch .3s cubic-bezier(.25,.46,.45,.94) reverse both infinite;
+  }
+  @keyframes glitch {
+    0%{
+      transform: translate(0);
+    }
+    20%{
+      transform: translate(-3px, 3px);
+    }
+    40%{
+      transform: translate(-3px, -3px);
+    }
+    60%{
+      transform: translate(3px, 3px);
+    }
+    80%{
+      transform: translate(3px, -3px);
+    }
+    100%{
+      transform: translate(0);
+    }
+  }
+
+
+/* // End of Animation Effect Styling */
+
+
+  .Portrait-Tagline-Copy {
+    color: white;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    font-size: 13px;
+    font-family: 'Vollkorn', serif;
+    font-weight: 200;
+  }
+  
+  .Portrait-Copy {
+    color: white;
+    margin-top: 18%;
+    font-size: 12px;
+    font-family: 'Vollkorn', serif;
+    font-weight: 500;
+    margin-left: 7%;
+    margin-right: 7%; 
+    line-height: 20px;
+  }
+  
+  .ui.inverted.button {
+    color: white;
+    margin-top: 16%;
+    margin-left: 16%;
+    margin-right: 16%;
+    background: #702082;
+    border-color: #702082;
+    box-shadow: 0 0 0 2px #702082 inset!important;
+    font-family: 'Teko', sans-serif;
+    font-weight: 600;
+    border-radius: 0;
+    letter-spacing: 0.2px;
+    padding-left: 4%;
+    padding-right: 4%;
+    font-size: 15px;
+  }
+  
+  .Social-Button-Group {
+    margin-top: 8%;
+  }
+  
+  .ui.circular.facebook.icon.button {
+    margin-right: 8%;
+    background: white;
+    color: #702082;
+  }
+  .ui.circular.instagram.icon.button {
+    margin-right: 8%;
+    background: white;
+    color: #702082;
+  }
+  .ui.circular.twitter.icon.button {
+    background: white;
+    color: #702082;
+  }
