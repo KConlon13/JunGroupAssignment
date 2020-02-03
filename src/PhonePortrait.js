@@ -1,19 +1,21 @@
 import React from "react";
-// import './App.css';
-import './PortraitStyling.css';
+import './PhonePortraitStyling.css';
 import BelluminatiLogo from "./BelluminatiLogo.png"
 
+// This component is for the iPhone 8 Portrait View
+
 class PhonePortrait extends React.Component {
-    // This component is for the iPhone 8 Portrait View
     render(){
         return(
             <div className="PhonePortrait">
                 <img className="Taco-Bell-Logo" src={BelluminatiLogo} alt="Taco Bell White"/>
                 <h3 className="Portrait-Small-Title-Copy">Welcome to the</h3>
-                <div className="center text">
-                <label data-content="BELLUMINATI"><span>BELLUMINATI</span></label>
-                    {/* <h3 className="Portrait-Large-Title-Copy">BELLUMINATI</h3> */}
+                
+                {/* <h3 className="Portrait-Large-Title-Copy">BELLUMINATI</h3> */}
+                {/* The commented-out title above is for an animation-less title, the below is for glitch animation title */}
 
+                <div className="center text">
+                    <label data-content="BELLUMINATI"><span>BELLUMINATI</span></label>
                 </div>
                 <h4 className="Portrait-Copy">Congratulations. You've discovered the secret world of the Belluminati, where the dollar truly gets you more. From morning to late night, your dollar will always get you the most at Taco Bell - for it is the order of the Belluminati.</h4>
                 <h3 className="Portrait-Tagline-Copy">#TheDollarReignsSupreme</h3>

@@ -1,143 +1,28 @@
 body {
+    background: black;
+  }
+
+#Welcome-background {
   background: black;
-}
-
-/* The following styling is for the PhonePortrait Component */
-.PhonePortrait {
   text-align: center;
-  height: 100%;
-  width: 100%;
-}
-
-.Taco-Bell-Logo {
   display: block;
-  height: 60vmin;
-  margin-top: 4%;
-  margin-right: auto;
-  margin-left: auto;
 }
 
-.Portrait-Small-Title-Copy {
+#App-logo {
+  margin: 5% auto 3% auto;
+  display: block;
+}
+
+#Headline-top {
   color: white;
-  margin-top: 4%;
-  margin-bottom: 0%;
-  font-size: 15px;
-  font-family: 'Vollkorn', serif;
-  font-weight: 300;
-}
-
-.Portrait-Large-Title-Copy {
-  color: white;
-  margin-top: 0;
-  font-size: 35px;
-  font-family: 'Vollkorn', serif;
-}
-
-.Portrait-Tagline-Copy {
-  color: white;
-  margin-top: 5%;
-  margin-bottom: 0%;
-  font-size: 13px;
-  font-family: 'Vollkorn', serif;
-  font-weight: 200;
-}
-
-.Portrait-Copy {
-  color: white;
-  margin-top: 5%;
-  font-size: 12px;
-  font-family: 'Vollkorn', serif;
-  font-weight: 500;
-  margin-left: 7%;
-  margin-right: 7%; 
-  line-height: 20px;
-}
-
-.ui.inverted.button {
-  color: white;
-  margin-top: 16%;
-  margin-left: 16%;
-  margin-right: 16%;
-  background: #702082;
-  border-color: #702082;
-  box-shadow: 0 0 0 2px #702082 inset!important;
-  font-family: 'Teko', sans-serif;
-  font-weight: 600;
-  border-radius: 0;
-  letter-spacing: 0.2px;
-  padding-left: 4%;
-  padding-right: 4%;
-  font-size: 15px;
-}
-
-.Social-Button-Group {
-  margin-top: 8%;
-}
-
-.ui.circular.facebook.icon.button {
-  margin-right: 8%;
-  background: white;
-  color: #702082;
-}
-.ui.circular.instagram.icon.button {
-  margin-right: 8%;
-  background: white;
-  color: #702082;
-}
-.ui.circular.twitter.icon.button {
-  background: white;
-  color: #702082;
-}
-
-/* The following styling is for TabletPortrait component */
-
-.TabletPortrait {
+  margin-bottom: 2%;
   text-align: center;
-  height: 100%;
-  width: 100%;
 }
 
-.Taco-Bell-Logo-Tablet {
-  display: block;
-  height: 40vmin;
-  margin-top: 5%;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.Tablet-Small-Title-Copy {
+#Headline-bottom {
   color: white;
-  margin-top: 3%;
+  font-size: 15px;
   margin-bottom: 0%;
-  font-size: 25px;
-  font-family: 'Vollkorn', serif;
-  font-weight: 300;
+  margin-top: .8%;
+  text-align: center;
 }
-
-.Tablet-Large-Title-Copy {
-  color: white;
-  margin-top: 0;
-  font-size: 55px;
-  font-family: 'Vollkorn', serif;
-}
-
-.Tablet-Copy {
-  color: white;
-  margin-top: 5%;
-  font-size: 19px;
-  font-family: 'Vollkorn', serif;
-  font-weight: 500;
-  margin-left: 11%;
-  margin-right: 11%; 
-  line-height: 37px;
-}
-
-.Tablet-Tagline-Copy {
-  color: white;
-  margin-top: 5%;
-  margin-bottom: 0%;
-  font-size: 21px;
-  font-family: 'Vollkorn', serif;
-  font-weight: 200;
-}
-

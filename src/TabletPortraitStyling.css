@@ -1,0 +1,134 @@
+body {
+  background: black;
+}
+
+.TabletPortrait {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+.Taco-Bell-Logo-Tablet {
+  display: block;
+  height: 40vmin;
+  margin-top: 5%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.Tablet-Small-Title-Copy {
+  color: white;
+  margin-top: 3%;
+  margin-bottom: 0%;
+  font-size: 25px;
+  font-family: 'Vollkorn', serif;
+  font-weight: 300;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////   */
+/* This is the Plain White "Belluminati Headline without glitch animation effect" */
+
+/* .Tablet-Large-Title-Copy {
+  color: white;
+  margin-top: 0;
+  font-size: 55px;
+  font-family: 'Vollkorn', serif;
+} */
+
+/* /////////////////////////////////////////////////////////////////////////////////////////   */
+
+/* // GLITCH ANIMATION EFFECT */
+
+.Tablet-Large-Title-Copy {
+  color: white;
+  opacity: .8;
+  margin-top: 0;
+  font-size: 56px;
+  font-family: 'Vollkorn', serif;
+}
+
+.tabletCenter{
+  position: absolute;
+  left: 50%;
+  bottom: 54%;
+  transform: translate(-50%, -50%);
+}
+.tabletText label{
+  font-size: 56px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: 'Vollkorn', serif;
+  cursor: pointer;
+}
+label span{
+  position: relative;
+  color: white;
+  z-index: 2;
+  filter: blur(.1px);
+}
+.tabletText label::before,
+.tabletText label::after{
+  position: absolute;
+  content: attr(data-content);
+  top: 0;
+  left: 0;
+  visibility: hidden;
+}
+.tabletText label::before,
+.tabletText label::after{
+  visibility: visible;
+}
+.tabletText label::before{
+  color: rgba(255,0,188,.6);
+  animation: glitch .3s cubic-bezier(.25,.46,.45,.94) both infinite;
+}
+.tabletText label::after{
+  color: rgba(0,255,255,.6);
+  animation: glitch .3s cubic-bezier(.25,.46,.45,.94) reverse both infinite;
+}
+@keyframes glitch {
+  0%{
+    transform: translate(0);
+  }
+  20%{
+    transform: translate(-3px, 3px);
+  }
+  40%{
+    transform: translate(-3px, -3px);
+  }
+  60%{
+    transform: translate(3px, 3px);
+  }
+  80%{
+    transform: translate(3px, -3px);
+  }
+  100%{
+    transform: translate(0);
+  }
+}
+
+/* End of Glitch Animation Effect */
+
+.Tablet-Copy {
+  color: white;
+  margin-top: 13%;
+  font-size: 19px;
+  font-family: 'Vollkorn', serif;
+  font-weight: 500;
+  margin-left: 11%;
+  margin-right: 11%; 
+  line-height: 37px;
+}
+
+.Tablet-Tagline-Copy {
+  color: white;
+  margin-top: 5%;
+  margin-bottom: 0%;
+  font-size: 21px;
+  font-family: 'Vollkorn', serif;
+  font-weight: 200;
+}
+
+.Tablet-Social-Group {
+  margin-Top: 5%
+}
