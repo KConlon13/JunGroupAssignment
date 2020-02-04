@@ -10,14 +10,14 @@ class PhonePortrait extends React.Component {
             <div className="PhonePortrait">
                 <img className="Taco-Bell-Logo" src={BelluminatiLogo} alt="Taco Bell White"/>
                 <h3 className="Portrait-Small-Title-Copy">Welcome to the</h3>
-                
+
                 {/* <h3 className="Portrait-Large-Title-Copy">BELLUMINATI</h3> */}
                 {/* The commented-out title above is for an animation-less title, the below is for glitch animation title */}
 
                 <div className="center text">
                     <label data-content="BELLUMINATI"><span>BELLUMINATI</span></label>
                 </div>
-                <h4 className="Portrait-Copy">Congratulations. You've discovered the secret world of the Belluminati, where the dollar truly gets you more. From morning to late night, your dollar will always get you the most at Taco Bell - for it is the order of the Belluminati.</h4>
+                <h4 className="Portrait-Copy">Congratulations. You've discovered the secret world of the Belluminati, where the dollar truly gets you more. From morning to late night, your dollar will always get you the most at Taco Bell - for it is the order of the Belluminati!</h4>
                 <h3 className="Portrait-Tagline-Copy">#TheDollarReignsSupreme</h3>
                 <a href="https://www.tacobell.com/" target="_blank" rel="noopener noreferrer">
                     <button class="ui inverted button">UNCOVER MORE SECRETS HERE</button>
